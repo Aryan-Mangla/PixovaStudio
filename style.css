@@ -1,5 +1,5 @@
 *{
-    font-family: Hammersmith One;
+    font-family: sans-serif;
 
 }
 .box-p{
@@ -16,6 +16,7 @@
     height: 120px;
     font-size: 46px;
     font-weight: 500;
+    z-index: 1;
 }
 
 .plus{
@@ -41,8 +42,6 @@ text-align: center;
     font-size: 46px;
     font-weight: 600;
     line-height: 58px;
-    letter-spacing: 0em;
-    margin-left: 35rem;
 }
 
 .tilt{
@@ -73,12 +72,14 @@ text-align: center;
     height: 291px;
 }
 
-.tilt1{
+.box-tilt{
     background-color: #7752FE;
     border: 2px solid #7752FE ;
     display: block;
     position: relative;
     transform: rotate(-3deg);
+}
+.tilt1{
     margin-left: 15rem;
     top: -6px;
     color: white;
@@ -87,11 +88,6 @@ text-align: center;
     font-size: 20px;
 }
 .tilt2{
-    background-color: #7752FE;
-    border: 2px solid #7752FE ;
-    display: block;
-    position: relative;
-    transform: rotate(-3deg);
     margin-left: 12rem;
     top: 92px;
     color: white;
@@ -100,11 +96,6 @@ text-align: center;
     font-size: 20px;
 }
 .tilt3{
-    background-color: #7752FE;
-    border: 2px solid #7752FE ;
-    display: block;
-    position: relative;
-    transform: rotate(-3deg);
     margin-left: 2rem;
     top: -6px;
     color: white;
@@ -113,13 +104,9 @@ text-align: center;
     font-size: 1rem;
 }
 
-.glow-r{
-    position: relative;
-    left: 1576px;
-    top: -244px;
-    height: 340px;
-    width: 196px;
 
+.pos{
+    bottom: 272px;
+    z-index: -1;
 }
-
 
