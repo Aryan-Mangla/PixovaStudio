@@ -39,16 +39,15 @@ text-align: center;
 
 .title{
     color: white;
-    font-size: 46px;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 58px;
+    
 }
 
 .tilt{
     background-color: #7752FE;
-    border: 2px solid #7752FE ;
     display: inline-block;
-    transform: rotate(-4deg);
+    transform: rotate(-3deg);
     /* margin-bottom: 5rem; */
     color: white;
 }
@@ -56,7 +55,7 @@ text-align: center;
 .proj1{
     width: 442px;
     height: 298px;
-    margin-left: 10rem;
+    margin-left: 10rem;   /*Creating issue of overflow in small device, need media query*/
 }
 
 .proj2{
@@ -110,3 +109,72 @@ text-align: center;
     z-index: -1;
 }
 
+.pos1{
+    top: 45rem;
+z-index: -1;
+}
+
+.horizontal-line {
+    height: 2px;
+    background: linear-gradient(270deg, rgba(119, 82, 254, 0) 0%, #7752FE 50.26%, rgba(119, 82, 254, 0) 101.01%);
+    border: 2px solid;
+    border-image-source: linear-gradient(270deg, rgba(119, 82, 254, 0) 0%, #7752FE 50.26%, rgba(119, 82, 254, 0) 101.01%);
+    z-index: 1;
+  }
+
+  .m-left-105{
+    margin-left: 105px;
+  }
+.colon{
+    height: 60px;
+    width: 63px;
+}
+
+.test{
+    font-size: 36px;
+    width: 85%;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+}
+
+.user{
+    height: 56px;
+    width: 56px;
+}
+
+.user-pos{
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: 3.3rem;
+    left: 0.4rem;
+}
+.strap{
+
+height: 173px;
+background-color: #7752FE;
+}
+
+.num{
+font-size: 96px;
+color: white;
+}
+.num1{
+    position: relative;
+    top: -29px;
+    font-size: 40px;
+    color: white;
+    }
+.outline{
+    font-size: 96px;
+    font-weight: 600;
+    
+    color: #7752FE ;
+    text-shadow:
+		-1px -1px 0 #ffffff,
+		1px -1px 0 #ffffff,
+		-1px 1px 0 #ffffff,
+		1px 1px 0 #ffffff;
+}
