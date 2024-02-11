@@ -1,0 +1,125 @@
+*{
+    font-family: Hammersmith One;
+
+}
+.box-p{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.marq{
+    color: white;
+    bottom:50px;
+    background-color:#7752FE;
+    height: 120px;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.plus{
+    height: 30px;
+    width: 30px;
+    vertical-align: baseline;
+}
+
+.txt-purple{
+color: #7752FE;
+
+}
+.proj{
+font-size: 25px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.title{
+    color: white;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    margin-left: 35rem;
+}
+
+.tilt{
+    background-color: #7752FE;
+    border: 2px solid #7752FE ;
+    display: inline-block;
+    transform: rotate(-4deg);
+    /* margin-bottom: 5rem; */
+    color: white;
+}
+
+.proj1{
+    width: 442px;
+    height: 298px;
+    margin-left: 10rem;
+}
+
+.proj2{
+    width: 228px;
+    height: 435px;
+    position: relative;
+    top: 97px;
+    margin-left: 200px;
+}
+
+.proj3{
+    width: 385px;
+    height: 291px;
+}
+
+.tilt1{
+    background-color: #7752FE;
+    border: 2px solid #7752FE ;
+    display: block;
+    position: relative;
+    transform: rotate(-3deg);
+    margin-left: 15rem;
+    top: -6px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+.tilt2{
+    background-color: #7752FE;
+    border: 2px solid #7752FE ;
+    display: block;
+    position: relative;
+    transform: rotate(-3deg);
+    margin-left: 12rem;
+    top: 92px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+.tilt3{
+    background-color: #7752FE;
+    border: 2px solid #7752FE ;
+    display: block;
+    position: relative;
+    transform: rotate(-3deg);
+    margin-left: 2rem;
+    top: -6px;
+    color: white;
+    text-align: center;
+    width: 65%;
+    font-size: 1rem;
+}
+
+.glow-r{
+    position: relative;
+    left: 1576px;
+    top: -244px;
+    height: 340px;
+    width: 196px;
+
+}
+
+
