@@ -105,9 +105,9 @@ margin-bottom: 0;
 
 
 .pos{
-    bottom: 5px;
+    bottom: 56px;
     z-index: -1;
-    right: -29px;
+    height: 39rem;
 }
 
 .pos1{
@@ -120,6 +120,14 @@ z-index: -1;
     height: 2px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), #7752FE, rgba(0, 0, 0, 0));
     top: 999px;
+}
+
+.line-pos {
+    top: 32px;
+}
+
+.line-pos2{
+    top: 117px;
 }
 
 .line::before {
@@ -172,9 +180,19 @@ z-index: -1;
     left: 0.4rem;
 }
 .strap{
-
 height: 173px;
 background-color: #7752FE;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.strap1{
+    position: relative;
+    bottom: 0px;
+    height: 80px;
+    background-color: #7752FE;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .num{
@@ -199,8 +217,10 @@ color: white;
 		1px 1px 0 #ffffff;
 }
 .pos2{
+    top: 182rem;
     z-index: -1;
-    right: -15px;
+    right: 0.07999999999999433px;
+    height: 530px;
 }
 
 .skill-border{
@@ -238,11 +258,24 @@ transform: rotate(-11deg);
 }
 
 .pos3{
-    top: 64rem;
+    bottom: -185rem;
     z-index: -1;
-    right: -574px;
+    right: -0.5px;
+    height: 34rem;
 }
 
 .pos4{
-z-index: -1;
+    bottom: -189rem;
+    z-index: -1;
+    height: 44rem;
+
+}
+
+.con-p-prop{
+font-family: SF Pro Display;
+font-size: 150px;
+font-weight: 400;
+line-height: 150px;
+letter-spacing: 0em;
+text-align: center;
 }
