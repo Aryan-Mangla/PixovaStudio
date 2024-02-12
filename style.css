@@ -105,13 +105,13 @@ margin-bottom: 0;
 
 
 .pos{
-    bottom: 150px;
+    bottom: 5px;
     z-index: -1;
-    right: -15px;
+    right: -29px;
 }
 
 .pos1{
-    top: 45rem;
+    top: 52rem;
 z-index: -1;
 }
 
@@ -120,9 +120,9 @@ z-index: -1;
     height: 2px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), #7752FE, rgba(0, 0, 0, 0));
     top: 999px;
-  }
-  
-  .line::before {
+}
+
+.line::before {
     content: "";
     position: absolute;
     top: 0;
@@ -130,9 +130,9 @@ z-index: -1;
     height: 100%;
     width: 50%;
     background: linear-gradient(to right, #000, rgba(0, 0, 0, 0));
-  }
-  
-  .line::after {
+}
+
+.line::after {
     content: "";
     position: absolute;
     top: 0;
@@ -235,6 +235,14 @@ transform: rotate(-11deg);
     color: #ffffff;
     font-size: 80px;
     font-weight: 500;
-
 }
 
+.pos3{
+    top: 64rem;
+    z-index: -1;
+    right: -574px;
+}
+
+.pos4{
+z-index: -1;
+}
