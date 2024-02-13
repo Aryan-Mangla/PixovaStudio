@@ -294,3 +294,8 @@ text-align: center;
     width: 341px;
     height: 341px;
 }
+
+.hero-video{
+    z-index: -1;
+    height: 39rem;
+}
