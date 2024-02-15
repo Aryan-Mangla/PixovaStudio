@@ -298,4 +298,6 @@ text-align: center;
 .hero-video{
     z-index: -1;
     height: 39rem;
+    width: 100%;
+
 }
