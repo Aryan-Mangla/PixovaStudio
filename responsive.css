@@ -19,6 +19,9 @@
     .proj1 {
         height: 435px;
     }
+    .test{
+        font-size: 30px;
+    }
 }
 
 
@@ -76,6 +79,20 @@
     .tilt3 {
         font-size: 11px;
     }
+    .test{
+        font-size: 28px;
+    }
+    .colon {
+        height: 51px;
+        width: 52px;
+    }
+    .test-video {
+        width: 236px;
+        height: 291px;
+    }
+    .pos1 img{
+        height: 10rem;
+    }
 
 }
 
@@ -116,6 +133,27 @@
     .tilt3 {
         font-size: 12px;
         margin-left: 4rem;
+    }
+    .test{
+        font-size: 25px;
+    }
+    .test-video {
+        width: 180px;
+        height: 212px;
+    }
+    .colon {
+        height: 36px;
+        width: 36px;
+    }
+    .pos1{
+        height: 100rem;
+    }
+    .line{
+        top: 845px;
+    }
+    .pos1 {
+        height: 57rem;
+        top: 46rem;
     }
 }
 
@@ -188,6 +226,13 @@
     .tilt3 {
         font-size: 10px;
     }
+    .line{
+        top: 735px;
+    }
+    .pos1 {
+        height: 52rem;
+        top: 40rem;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 850px) {
@@ -235,6 +280,19 @@
         width: 70%;
         margin-left: 3rem;
     }
+    .test{
+        font-size: 20px;
+    }
+    .test-video {
+        width: 149px;
+        height: 197px;
+    }
+    .line {
+        top: 661px;}
+        .pos1 {
+            height: 44rem;
+            top: 34rem;
+        }
 
 }
 
@@ -357,6 +415,27 @@
         width: 65%;
         font-size: 0.4rem;
     }
+    .test{
+        font-size: 18px;
+        width: 95%;
+    }
+    .test-video {
+        width: 126px;
+        height: 140px;
+    }
+    
+.colon {
+    height: 28px;
+    width: 29px;
+}
+.line{
+    top: 608px;
+}
+.pos1 {
+    top: 32rem;
+    z-index: -1;
+    height: 40rem;
+}
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
@@ -391,6 +470,11 @@
 
     .tilt3 {
         font-size: 0.3rem;
+    }
+    .test-video {
+        width: 105px;
+    left: -2rem;
+    height: 164px;
     }
 }
 
@@ -478,7 +562,30 @@
         margin-left: 2rem;
         font-size: 0.3rem;
     }
+    .test-video {
+        width: 137px;
+    left: 0rem;
+    height: 73px;
+    top: 36px;
+    }
+    .test{
+        font-size: 12px;
+        width: 95%;
+    }
+.colon {
+    height: 28px;
+    width: 29px;
 }
+.line{
+    top: 505px;
+}
+.pos1 {
+    top: 29rem;
+
+    height: 33rem;
+}
+}
+
 
 @media (min-width: 300px) and (max-width: 430px) {
     .mobile-padding{
@@ -511,6 +618,14 @@
     .tilt3{
         margin-left: 1rem;
         width: 100%;
+    }
+    .line {
+        top: 474px;
+    }
+    .pos1{
+        top: 410px;
+    z-index: -1;
+    height: 496.1px;
     }
 }
 
