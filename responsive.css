@@ -409,7 +409,7 @@
     }
 
     .prop2 {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .proj1 {
@@ -457,6 +457,9 @@
 }
 
 @media (min-width: 300px) and (max-width: 430px) {
+    .mobile-padding{
+        padding: 2rem !important;
+            }
     .proj1 {
         width: 101px;
     height: 108px;
@@ -488,6 +491,10 @@
 }
 
 @media (min-width: 200px) and (max-width: 300px) {
+   .marq{
+    height: 66px;
+    font-size: 30px;
+   }
     .mobile-padding{
 padding: 1rem !important;
     }
