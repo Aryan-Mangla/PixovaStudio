@@ -1,97 +1,461 @@
-@media  (min-width: 1363px) and (max-width: 1525px) {
-    
-   .hero-video{
-    /* width: 100%; */
-    top: 10px;
-   }
-.pos{
-   bottom: 56px;
-    z-index: -1;
-    height: 32rem;
+@media (min-width: 1363px) and (max-width: 1525px) {
+
+    .hero-video {
+        /* width: 100%; */
+        top: 10px;
+    }
+
+    .pos {
+        bottom: 56px;
+        z-index: -1;
+        height: 32rem;
+    }
+
+    .glow-hero {
+        height: 557px;
+        top: 27rem;
+    }
+
+    .proj1 {
+        height: 435px;
+    }
 }
 
-.glow-hero {
-    height: 557px;
-    top: 27rem;
-}
-  }
 
-  @media (min-width: 979px) and (max-width:1363px ){
-.pos{
-height: 25rem;
-bottom: -32px;
-}
-.hero-video{
-    /* width: 85%; */
-    top: 10px;
-   }
-.hero-pos{
-    left: 9rem;
-    top: 244px;
-}
-.glow-hero {
-    height: 427px;
-    top: 30rem;
-}
-  }
+@media (min-width: 979px) and (max-width:1370px) {
+    .pos {
+        height: 25rem;
+        bottom: -32px;
+    }
 
-@media (min-width: 760px) and (max-width: 979px){
-    .hero-pos{
+    .hero-video {
+        /* width: 85%; */
+        top: 10px;
+    }
+
+    .hero-pos {
+        left: 9rem;
+        top: 244px;
+    }
+
+    .glow-hero {
+        height: 427px;
+        top: 30rem;
+    }
+
+    .prop1 {
+        font-size: 13px;
+    }
+
+    .prop2 {
+        font-size: 36px;
+    }
+
+    .proj1 {
+        width: 348px;
+        height: 400px;
+        margin-left: 6rem;
+    }
+
+    .tilt1 {
+        margin-left: 10rem;
+        font-size: 11px;
+    }
+
+    .proj2 {
+        margin-left: 95px;
+        width: 199px;
+        height: 389px;
+    }
+
+    .tilt2 {
+        margin-left: 9rem;
+        font-size: 11px;
+    }
+
+    .tilt3 {
+        font-size: 11px;
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 1256px) {
+    .prop1 {
+        font-size: 12px;
+    }
+
+    .prop2 {
+        font-size: 34px;
+    }
+
+    .proj1 {
+        width: 280px;
+        height: 295px;
+    }
+
+    .proj2 {
+        width: 175px;
+        height: 333px;
+        margin-left: 55px;
+    }
+
+    .proj3 {
+        width: 317px;
+        height: 240px;
+    }
+
+    .tilt1 {
+        margin-left: 9rem;
+    }
+
+    .tilt2 {
+        font-size: 12px !important;
+        margin-left: 7.5rem;
+    }
+
+    .tilt3 {
+        font-size: 12px;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 992px) {
+    .hero-pos {
         top: 142px;
         left: 6rem;
     }
-    .hero-video{
+
+    .hero-video {
         /* width: 70%; */
     }
+
     .glow-hero {
         height: 373px;
         top: 26rem;
     }
+
     .pos {
         bottom: -91px;
         height: 17rem;
     }
-    .marq{
-        bottom: 221px;
+
+    .hero-main {
+        height: 754px;
+    }
+
+    .marq {
+        bottom: -37px;
+    }
+
+    .tilt1 {
+        width: 60%;
+        margin-left: 7rem;
+        font-size: 10px;
+    }
+
+    .proj1 {
+        width: 234px;
+        height: 258px;
+        margin-left: 5rem;
+    }
+
+    .proj2 {
+        width: 130px;
+        height: 244px;
+        margin-left: 33px;
+        top: 75px;
+    }
+
+    .tilt2 {
+        font-size: 9px !important;
+        margin-left: 5.5rem;
+        top: 64px;
+    }
+
+    .proj3 {
+        width: 281px;
+        height: 213px;
+    }
+
+    .tilt3 {
+        font-size: 10px;
     }
 }
 
-@media (min-width: 500px) and (max-width: 760px){
-    .hero-pos{
+@media (min-width: 767px) and (max-width: 850px) {
+    .prop1 {
+        font-size: 10px;
+    }
+
+    .prop2 {
+        font-size: 24px;
+    }
+
+    .proj1 {
+        width: 210px;
+        height: 225px;
+        margin-left: 0rem;
+    }
+
+    .proj2 {
+        width: 114px;
+        height: 216px;
+    }
+
+    .proj3 {
+        width: 251px;
+        height: 192px;
+    }
+
+    .tilt1,
+    .tilt2,
+    .tilt3 {
+        font-size: 9px !important;
+    }
+
+    .tilt1 {
+        width: 70%;
+        margin-left: 2rem;
+    }
+
+    .tilt2 {
+        margin-left: 4.5rem;
+        width: 56%;
+    }
+
+    .tilt3 {
+        width: 70%;
+        margin-left: 3rem;
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 767px) {
+    .proj1 {
+        width: 202px;
+        height: 212px;
+        margin-left: 1rem;
+    }
+
+    .tilt1 {
+        width: 60%;
+        margin-left: 3rem;
+        font-size: 8px;
+    }
+
+    .proj2 {
+        width: 126px;
+        height: 243px;
+        margin-left: 11px;
+        top: 61px;
+    }
+
+    .tilt2 {
+        font-size: 7px !important;
+        margin-left: 4rem;
+        top: 55px;
+    }
+
+    .proj3 {
+        width: 225px;
+        height: 171px;
+    }
+
+    .tilt3 {
+        font-size: 8px;
+        margin-left: 3rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 760px) {
+    .hero-pos {
         top: 52px;
         left: 6rem;
     }
-    .hero-video{
+
+    .hero-main {
+        height: 602px;
+    }
+
+    .hero-video {
         /* width: 70%; */
     }
+
     .glow-hero {
         height: 373px;
         top: 16rem;
     }
+
     .pos {
         bottom: -91px;
         height: 14rem;
     }
-    .marq{
-        bottom: 369px;
+
+    .marq {
+        bottom: -63px;
+    }
+
+    .prop1 {
+        font-size: 8px;
+    }
+
+    .prop2 {
+        font-size: 22px;
+    }
+
+    .proj1 {
+        width: 173px;
+        height: 187px;
+        margin-left: 1rem;
+    }
+
+    .tilt1 {
+        width: 60% !important;
+        margin-left: 3rem !important;
+        font-size: 6px;
+    }
+
+    .proj2 {
+        width: 106px;
+        height: 197px;
+        top: 62px;
+        margin-left: 12px;
+    }
+
+    .tilt2 {
+        margin-left: 3rem;
+        top: 37px;
+        width: 50%;
+        font-size: 5px;
+    }
+
+    .proj3 {
+        width: 179px;
+        height: 136px;
+
+    }
+
+    .tilt3 {
+        margin-left: 2.5rem;
+        top: -13px;
+        width: 65%;
+        font-size: 0.4rem;
     }
 }
 
-@media   (min-width: 200px) and (max-width: 500px){
-    .hero-pos{
+@media (min-width: 500px) and (max-width: 600px) {
+    .proj1 {
+        width: 143px;
+        height: 156px;
+    }
+
+    .proj2 {
+        width: 92px;
+        height: 175px;
+        margin-left: 8px;
+    }
+
+    .tilt1,
+    .tilt2,
+    .tilt3 {
+        padding: 12px !important;
+    }
+
+    .tilt2 {
+        margin-left: 2.6rem;
+        top: 54px;
+
+        font-size: 5px;
+    }
+
+    .proj3 {
+        width: 170px;
+        height: 129px;
+    }
+
+    .tilt3 {
+        font-size: 0.3rem;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .hero-pos {
         top: 52px;
         left: 4rem;
+    }
+
+    .hero-main {
+        height: 520px;
     }
 
     .glow-hero {
         height: 285px;
         top: 16rem;
     }
+
     .pos {
         bottom: -91px;
         height: 11rem;
     }
-    .marq{
-        bottom: 429px;
+
+    .marq {
+        bottom: -25px;
+        height: 84px;
+        font-size: 36px;
     }
+
+    .prop1 {
+        font-size: 9px;
+    }
+
+    .prop2 {
+        font-size: 22px;
+    }
+
+    .proj1 {
+        width: 129px;
+        height: 126px;
+        margin-left: 0rem;
+    }
+
+    .tilt1 {
+        margin-left: 1.2rem;
+        top: -5px;
+
+        width: 70%;
+        font-size: 7px;
+    }
+
+    .proj2 {
+        width: 76px;
+        height: 144px;
+        margin-left: 8px;
+        top: 43px;
+    }
+
+    .tilt1,
+    .tilt2,
+    .tilt3 {
+        padding: 3px !important;
+    }
+
+    .tilt2 {
+        margin-left: 2.2rem;
+        top: 34px;
+        font-size: 5px;
+    }
+
+    .proj3 {
+        width: 137px;
+        height: 103px;
+    }
+
+    .tilt3 {
+        margin-left: 2rem;
+        font-size: 0.3rem;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    
 }

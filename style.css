@@ -8,6 +8,10 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+.hero-main{
+    height: 1024px; top: -50px
+}
 .hero-pos{
     top: 219px;
     left: 14rem;
@@ -58,7 +62,7 @@ margin-bottom: 0;
 
 .proj1{
     width: 442px;
-    height: 298px;
+    height: 460px;
     margin-left: 10rem;   /*Creating issue of overflow in small device, need media query*/
 }
 
@@ -84,7 +88,7 @@ margin-bottom: 0;
 }
 .tilt1{
     margin-left: 15rem;
-    top: -6px;
+    top: -15px;
     color: white;
     text-align: center;
     width: 60%;
@@ -96,7 +100,7 @@ margin-bottom: 0;
     color: white;
     text-align: center;
     width: 50%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .tilt3{
     margin-left: 6rem;
