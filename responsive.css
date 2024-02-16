@@ -19,7 +19,8 @@
     .proj1 {
         height: 435px;
     }
-    .test{
+
+    .test {
         font-size: 30px;
     }
 }
@@ -79,18 +80,22 @@
     .tilt3 {
         font-size: 11px;
     }
-    .test{
+
+    .test {
         font-size: 28px;
     }
+
     .colon {
         height: 51px;
         width: 52px;
     }
+
     .test-video {
         width: 236px;
         height: 291px;
     }
-    .pos1 img{
+
+    .pos1 img {
         height: 10rem;
     }
 
@@ -134,23 +139,29 @@
         font-size: 12px;
         margin-left: 4rem;
     }
-    .test{
+
+    .test {
         font-size: 25px;
     }
+
     .test-video {
         width: 180px;
         height: 212px;
     }
+
     .colon {
         height: 36px;
         width: 36px;
     }
-    .pos1{
+
+    .pos1 {
         height: 100rem;
     }
-    .line{
+
+    .line {
         top: 845px;
     }
+
     .pos1 {
         height: 57rem;
         top: 46rem;
@@ -158,14 +169,16 @@
 }
 
 @media (min-width: 760px) and (max-width: 992px) {
-    .company-name{
+    .company-name {
         width: 238px;
-    height: 39px;
+        height: 39px;
     }
+
     .icon-size {
         width: 50px;
         height: 39px;
     }
+
     .hero-pos {
         top: 142px;
         left: 6rem;
@@ -226,9 +239,11 @@
     .tilt3 {
         font-size: 10px;
     }
-    .line{
+
+    .line {
         top: 735px;
     }
+
     .pos1 {
         height: 52rem;
         top: 40rem;
@@ -280,19 +295,24 @@
         width: 70%;
         margin-left: 3rem;
     }
-    .test{
+
+    .test {
         font-size: 20px;
     }
+
     .test-video {
         width: 149px;
         height: 197px;
     }
+
     .line {
-        top: 661px;}
-        .pos1 {
-            height: 44rem;
-            top: 34rem;
-        }
+        top: 661px;
+    }
+
+    .pos1 {
+        height: 44rem;
+        top: 34rem;
+    }
 
 }
 
@@ -334,14 +354,16 @@
 }
 
 @media (min-width: 500px) and (max-width: 760px) {
-    .company-name{
+    .company-name {
         width: 214px;
-    height: 34px;
+        height: 34px;
     }
+
     .icon-size {
         width: 40px;
         height: 39px;
     }
+
     .hero-pos {
         top: 52px;
         left: 6rem;
@@ -415,27 +437,31 @@
         width: 65%;
         font-size: 0.4rem;
     }
-    .test{
+
+    .test {
         font-size: 18px;
         width: 95%;
     }
+
     .test-video {
         width: 126px;
         height: 140px;
     }
-    
-.colon {
-    height: 28px;
-    width: 29px;
-}
-.line{
-    top: 608px;
-}
-.pos1 {
-    top: 32rem;
-    z-index: -1;
-    height: 40rem;
-}
+
+    .colon {
+        height: 28px;
+        width: 29px;
+    }
+
+    .line {
+        top: 608px;
+    }
+
+    .pos1 {
+        top: 32rem;
+        z-index: -1;
+        height: 40rem;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
@@ -471,22 +497,25 @@
     .tilt3 {
         font-size: 0.3rem;
     }
+
     .test-video {
         width: 105px;
-    left: -2rem;
-    height: 164px;
+        left: -2rem;
+        height: 164px;
     }
 }
 
 @media (min-width: 200px) and (max-width: 500px) {
-    .company-name{
+    .company-name {
         width: 165px;
-    height: 28px;
+        height: 28px;
     }
+
     .icon-size {
         width: 36px;
         height: 37px;
     }
+
     .hero-pos {
         top: 52px;
         left: 4rem;
@@ -562,115 +591,190 @@
         margin-left: 2rem;
         font-size: 0.3rem;
     }
+
     .test-video {
         width: 137px;
-    left: 0rem;
-    height: 73px;
-    top: 36px;
+        left: 0rem;
+        height: 73px;
+        top: 36px;
     }
-    .test{
+
+    .test {
         font-size: 12px;
         width: 95%;
     }
-.colon {
-    height: 28px;
-    width: 29px;
-}
-.line{
-    top: 505px;
-}
-.pos1 {
-    top: 29rem;
 
-    height: 33rem;
-}
-}
+    .colon {
+        height: 28px;
+        width: 29px;
+    }
 
+    .line {
+        top: 505px;
+    }
+
+    .pos1 {
+        top: 29rem;
+        height: 33rem;
+    }
+
+    .test-prop1 {
+        font-size: 7px;
+    }
+
+    .test-prop2 {
+        font-size: 17px;
+    }
+}
 
 @media (min-width: 300px) and (max-width: 430px) {
-    .mobile-padding{
+    .mobile-padding {
         padding: 2rem !important;
-            }
+    }
+
     .proj1 {
         width: 101px;
-    height: 108px;
+        height: 108px;
         margin-left: -2rem;
     }
-    .tilt1{
+
+    .tilt1 {
         width: 95% !important;
         margin-left: -0.5rem;
         font-size: 5px;
     }
+
     .proj2 {
         width: 61px;
-    height: 115px;
+        height: 115px;
         margin-left: 3px;
         top: 37px;
     }
-    .tilt2{
+
+    .tilt2 {
         width: 80%;
         margin-left: 0.6rem;
     }
+
     .proj3 {
         width: 114px;
         height: 86px;
     }
-    .tilt3{
+
+    .tilt3 {
         margin-left: 1rem;
         width: 100%;
     }
+
     .line {
         top: 474px;
     }
-    .pos1{
+
+    .pos1 {
         top: 410px;
-    z-index: -1;
-    height: 496.1px;
+        z-index: -1;
+        height: 496.1px;
+    }
+
+    .test-video {
+        height: 385px;
+        width: 100px;
+        height: 69px;
+    }
+}
+@media (min-width: 380px) and (max-width: 384px) {
+    .pos1 {
+        top: 379px;
+        height: 489.1px;
     }
 }
 
-@media (min-width: 200px) and (max-width: 300px) {
-   .marq{
-    height: 66px;
-    font-size: 30px;
-   }
-    .mobile-padding{
-padding: 1rem !important;
+@media (min-width: 300px) and (max-width: 380px) {
+    .pos1 {
+        top: 359px;
+    height: 444.9px;
     }
+    .line {
+        top: 532px;
+    }
+    .test-video {
+        width: 69px;
+        height: 85px;
+    }
+.test{
+    font-size: 10px;
+}
+    .test-prop2{
+        font-size: 12px;
+    }
+}
+@media (min-width: 200px) and (max-width: 300px) {
+    .marq {
+        height: 66px;
+        font-size: 30px;
+    }
+
+    .mobile-padding {
+        padding: 1rem !important;
+    }
+
     .tilt1,
     .tilt2,
     .tilt3 {
         padding: 1px !important;
     }
-    .proj1 { 
+
+    .proj1 {
         width: 86px;
         height: 88px;
-        margin-left: 0rem;}
-    .tilt1{
-        margin-left: 4px;
-    top: -5px;
-    width: 100%;
-    font-size: 4px;
+        margin-left: 0rem;
     }
+
+    .tilt1 {
+        margin-left: 4px;
+        top: -5px;
+        width: 100%;
+        font-size: 4px;
+    }
+
     .proj2 {
         width: 51px;
         height: 96px;
         top: 22px;
     }
-    .tilt2{
+
+    .tilt2 {
         top: 21px;
         font-size: 3.5px;
         margin-left: 1.3rem;
         width: 60%;
     }
+
     .proj3 {
         width: 91px;
         height: 68px;
     }
-    .tilt3{
+
+    .tilt3 {
         font-size: 0.2rem;
         width: 100%;
         margin-left: 0.5rem;
     }
+    .pos1 {
+        top: 20rem;
+        height: 24rem;
+    }
+   .test-video{ width: 47px;
+    left: 0rem;
+    height: 140px;
+    top: 3px;
+   }
+   .m-left-105 {
+    margin-left: 36px;
+}
+.user-pos {
+    font-size: 12px;
 
+    top: 3.6rem;
+}
 }
