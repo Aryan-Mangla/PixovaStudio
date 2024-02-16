@@ -8,6 +8,13 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+.icon-size{
+    width: 54px; height: 51px
+}
+
+.company-name{
+    width: 277px; height: 45px
+}
 
 .hero-main{
     height: 1024px; top: -50px

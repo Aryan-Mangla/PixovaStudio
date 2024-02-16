@@ -120,6 +120,14 @@
 }
 
 @media (min-width: 760px) and (max-width: 992px) {
+    .company-name{
+        width: 238px;
+    height: 39px;
+    }
+    .icon-size {
+        width: 50px;
+        height: 39px;
+    }
     .hero-pos {
         top: 142px;
         left: 6rem;
@@ -268,6 +276,14 @@
 }
 
 @media (min-width: 500px) and (max-width: 760px) {
+    .company-name{
+        width: 214px;
+    height: 34px;
+    }
+    .icon-size {
+        width: 40px;
+        height: 39px;
+    }
     .hero-pos {
         top: 52px;
         left: 6rem;
@@ -379,6 +395,14 @@
 }
 
 @media (min-width: 200px) and (max-width: 500px) {
+    .company-name{
+        width: 165px;
+    height: 28px;
+    }
+    .icon-size {
+        width: 36px;
+        height: 37px;
+    }
     .hero-pos {
         top: 52px;
         left: 4rem;
