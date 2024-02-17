@@ -327,6 +327,8 @@
         width: 60%;
         margin-left: 3rem;
         font-size: 8px;
+        padding: 10px;
+
     }
 
     .proj2 {
@@ -340,6 +342,8 @@
         font-size: 7px !important;
         margin-left: 4rem;
         top: 55px;
+        padding: 10px;
+
     }
 
     .proj3 {
@@ -350,6 +354,8 @@
     .tilt3 {
         font-size: 8px;
         margin-left: 3rem;
+        padding: 10px;
+
     }
 }
 
@@ -408,7 +414,8 @@
     .tilt1 {
         width: 60% !important;
         margin-left: 3rem !important;
-        font-size: 6px;
+        font-size: 7px;
+        padding: 10px;
     }
 
     .proj2 {
@@ -419,10 +426,11 @@
     }
 
     .tilt2 {
-        margin-left: 3rem;
+        margin-left: 3.5rem;
         top: 37px;
         width: 50%;
-        font-size: 5px;
+        font-size: 7px;
+        padding: 10px;
     }
 
     .proj3 {
@@ -435,7 +443,8 @@
         margin-left: 2.5rem;
         top: -13px;
         width: 65%;
-        font-size: 0.4rem;
+        font-size: 7px;
+        padding: 10px;
     }
 
     .test {
@@ -479,13 +488,13 @@
     .tilt1,
     .tilt2,
     .tilt3 {
-        padding: 12px !important;
+        padding: 6.5px !important;
+        font-size: 6px;
     }
 
     .tilt2 {
         margin-left: 2.6rem;
         top: 54px;
-
         font-size: 5px;
     }
 
@@ -573,12 +582,14 @@
     .tilt1,
     .tilt2,
     .tilt3 {
-        padding: 3px !important;
+        padding: 2px !important;
+        max-width: 80%;
     }
 
     .tilt2 {
         margin-left: 2.2rem;
         top: 34px;
+        max-width: 60%;
         font-size: 5px;
     }
 
@@ -629,7 +640,7 @@
 
 @media (min-width: 300px) and (max-width: 430px) {
     .mobile-padding {
-        padding: 2rem !important;
+        padding: 1.5rem !important;
     }
 
     .proj1 {
@@ -652,8 +663,7 @@
     }
 
     .tilt2 {
-        width: 80%;
-        margin-left: 0.6rem;
+        margin-left: 1.2rem;
     }
 
     .proj3 {
@@ -667,7 +677,7 @@
     }
 
     .line {
-        top: 474px;
+        top: 419px;
     }
 
     .pos1 {
@@ -682,6 +692,7 @@
         height: 69px;
     }
 }
+
 @media (min-width: 380px) and (max-width: 384px) {
     .pos1 {
         top: 379px;
@@ -692,23 +703,60 @@
 @media (min-width: 300px) and (max-width: 380px) {
     .pos1 {
         top: 359px;
-    height: 444.9px;
+        height: 444.9px;
     }
-    .line {
-        top: 532px;
-    }
+
     .test-video {
         width: 69px;
         height: 85px;
     }
-.test{
-    font-size: 10px;
-}
-    .test-prop2{
+
+    .test {
+        font-size: 10px;
+    }
+
+    .test-prop2 {
         font-size: 12px;
     }
 }
-@media (min-width: 200px) and (max-width: 300px) {
+
+@media (min-width: 341px) and (max-width: 355px) {
+    .pos1 {
+        height: 422.9px;
+    }
+    .line {
+        top: 411px;
+    }
+}
+
+@media (min-width: 333px) and (max-width: 341px) {
+    .pos1 {
+        height: 406.9px;
+    }
+    .line {
+        top: 395px;
+    }
+}
+
+@media (min-width: 328px) and (max-width: 332px) {
+    .pos1 {
+        height: 398.9px;
+    }
+    .line {
+        top: 395px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 328px) {
+    .pos1 {
+        height: 391.9px !important;
+    }
+    .line {
+        top: 395px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 300px) {
     .marq {
         height: 66px;
         font-size: 30px;
@@ -760,21 +808,25 @@
         width: 100%;
         margin-left: 0.5rem;
     }
+
     .pos1 {
         top: 20rem;
         height: 24rem;
     }
-   .test-video{ width: 47px;
-    left: 0rem;
-    height: 140px;
-    top: 3px;
-   }
-   .m-left-105 {
-    margin-left: 36px;
-}
-.user-pos {
-    font-size: 12px;
 
-    top: 3.6rem;
-}
+    .test-video {
+        width: 47px;
+        left: 0rem;
+        height: 140px;
+        top: 3px;
+    }
+
+    .m-left-105 {
+        margin-left: 36px;
+    }
+
+    .user-pos {
+        font-size: 12px;
+        top: 3.6rem;
+    }
 }
