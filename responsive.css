@@ -162,6 +162,22 @@
         height: 57rem;
         top: 46rem;
     }
+    .skill-alpha {
+        font-size: 50px;
+    }
+    .skill-num-outline {
+        font-size: 66px;
+    }
+    .skill-num-tilt {
+        padding-bottom: 68px;
+        padding-top: 2px;
+        padding-right: 40px;
+        padding-left: 40px;
+        left: -79px;
+        font-size: 40px;
+        width: 115px;
+        height: 65px;
+    }
 }
 @media (min-width: 760px) and (max-width: 992px) {
     .company-name {
@@ -316,6 +332,22 @@
         height: 44rem;
         top: 34rem;
     }
+    .skill-alpha {
+        font-size: 40px;
+    }
+    .skill-num-outline {
+        font-size: 50px;
+    }
+    .skill-num-tilt {
+        padding-bottom: 3px;
+        padding-top: 3px;
+
+        padding-left: 20px;
+        left: -49px;
+        font-size: 40px;
+        width: 94px;
+        height: 67px;
+    }
 
 }
 @media (min-width: 760px) and (max-width: 767px) {
@@ -358,6 +390,22 @@
         margin-left: 3rem;
         padding: 10px;
 
+    }
+    .skill-alpha {
+        font-size: 40px;
+    }
+    .skill-num-outline {
+        font-size: 50px;
+    }
+    .skill-num-tilt {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 20px;
+        padding-left: 20px;
+        left: -80px;
+        font-size: 40px;
+        width: 94px;
+        height: 67px;
     }
 }
 @media (min-width: 500px) and (max-width: 760px) {
@@ -482,6 +530,23 @@
     .num1{
         font-size: 18px;
     }
+    .skill-alpha {
+        font-size: 30px;
+    }
+    .skill-num-outline {
+        font-size: 40px;
+    }
+    .skill-num-tilt {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 21px;
+    padding-left: 21px;
+    left: -72px;
+    bottom: 24px;
+    font-size: 30px;
+    width: 73px;
+    height: 53px;
+    }
 }
 @media (min-width: 500px) and (max-width: 600px) {
     .proj1 {
@@ -521,6 +586,12 @@
         width: 105px;
 right: 1rem;
         height: 164px;
+    }
+    .skill-alpha {
+        font-size: 20px;
+    }
+    .skill-num-outline {
+        font-size: 30px;
     }
 }
 @media (min-width: 200px) and (max-width: 500px) {
@@ -656,6 +727,25 @@ right: 1rem;
         font-size: 11px;
         top: -6px;
     }
+    .skill-alpha {
+        font-size: 15px;
+        margin-top: 16px;
+        margin-bottom: 16px ;
+    }
+    .skill-num-outline {
+        font-size: 25px;
+    }
+    .skill-num-tilt {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 21px;
+    padding-left: 21px;
+    left: -46px;
+    bottom: 17px;
+    font-size: 20px;
+    width: 60px;
+    height: 39px;
+    }
 }
 @media (min-width: 300px) and (max-width: 430px) {
     .mobile-padding {
@@ -735,6 +825,15 @@ right: 1rem;
     .test-prop2 {
         font-size: 12px;
     }
+    .skill-alpha{
+        font-size: 10px;
+    }
+    .skill-num-outline {
+        font-size: 20px;
+    }
+    .skill-num-tilt{
+        padding-left: 21px;
+    }
 }
 @media (min-width: 100px) and (max-width: 300px) {
     .marq {
@@ -807,10 +906,24 @@ right: 1rem;
         height: 65px;
     }
     .num,.outline{
-        font-size: 30px;
+        font-size: 11px;
     }
     .num1{
-        font-size: 8.5px;
+        font-size: 11px;
         top: -6px;
+    }
+    .skill-alpha{
+        font-size: 8px;
+    }
+    .skill-num-tilt{
+        padding-left: 15px;
+        left: -24px;
+        bottom: 26px;
+        font-size: 10px;
+        width: 39px;
+        height: 23px;
+    }
+    .skill-num-outline {
+        font-size: 10px;
     }
 }
