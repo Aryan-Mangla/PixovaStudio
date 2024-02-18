@@ -200,7 +200,7 @@ z-index: -1;
     left: 0.4rem;
 }
 .strap{
-height: 173px;
+height: 151px;
 background-color: #7752FE;
 margin-left: 0px;
 margin-right: 0px;
@@ -216,19 +216,18 @@ margin-right: 0px;
 }
 
 .num{
-font-size: 96px;
+font-size: 80px;
 color: white;
 }
 .num1{
     position: relative;
-    top: -29px;
-    font-size: 40px;
+    top: -20px;
+    font-size: 30px;
     color: white;
     }
 .outline{
-    font-size: 96px;
+    font-size: 80px;
     font-weight: 600;
-    
     color: #7752FE ;
     text-shadow:
 		-1px -1px 0 #ffffff,
@@ -306,9 +305,12 @@ text-align: center;
     z-index: -1;
 }
 .test-video{
-    left: -7rem;
     width: 341px;
     height: 341px;
+    position: absolute;
+    bottom: 29rem;
+    right: 6rem;
+
 }
 
 .hero-video{

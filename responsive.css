@@ -1,7 +1,6 @@
-@media (min-width: 1363px) and (max-width: 1525px) {
+@media (min-width: 1370px) and (max-width: 1525px) {
 
     .hero-video {
-        /* width: 100%; */
         top: 10px;
     }
 
@@ -24,8 +23,6 @@
         font-size: 30px;
     }
 }
-
-
 @media (min-width: 979px) and (max-width:1370px) {
     .pos {
         height: 25rem;
@@ -100,7 +97,6 @@
     }
 
 }
-
 @media (min-width: 760px) and (max-width: 1256px) {
     .prop1 {
         font-size: 12px;
@@ -167,7 +163,6 @@
         top: 46rem;
     }
 }
-
 @media (min-width: 760px) and (max-width: 992px) {
     .company-name {
         width: 238px;
@@ -248,8 +243,16 @@
         height: 52rem;
         top: 40rem;
     }
+    .strap{
+        height: 127px;
+    }
+    .num,.outline{
+        font-size: 70px;
+    }
+    .num1{
+        font-size: 25px;
+    }
 }
-
 @media (min-width: 767px) and (max-width: 850px) {
     .prop1 {
         font-size: 10px;
@@ -315,7 +318,6 @@
     }
 
 }
-
 @media (min-width: 760px) and (max-width: 767px) {
     .proj1 {
         width: 202px;
@@ -358,7 +360,6 @@
 
     }
 }
-
 @media (min-width: 500px) and (max-width: 760px) {
     .company-name {
         width: 214px;
@@ -455,6 +456,7 @@
     .test-video {
         width: 126px;
         height: 140px;
+        bottom: 28rem;
     }
 
     .colon {
@@ -471,8 +473,16 @@
         z-index: -1;
         height: 40rem;
     }
+    .strap{
+        height: 109px;
+    }
+    .num,.outline{
+        font-size: 60px;
+    }
+    .num1{
+        font-size: 18px;
+    }
 }
-
 @media (min-width: 500px) and (max-width: 600px) {
     .proj1 {
         width: 143px;
@@ -509,11 +519,10 @@
 
     .test-video {
         width: 105px;
-        left: -2rem;
+right: 1rem;
         height: 164px;
     }
 }
-
 @media (min-width: 200px) and (max-width: 500px) {
     .company-name {
         width: 165px;
@@ -605,9 +614,10 @@
 
     .test-video {
         width: 137px;
-        left: 0rem;
+bottom: 25rem;
+right: 1rem;
         height: 73px;
-        top: 36px;
+
     }
 
     .test {
@@ -636,8 +646,17 @@
     .test-prop2 {
         font-size: 17px;
     }
+    .strap{
+        height: 86px;
+    }
+    .num,.outline{
+        font-size: 40px;
+    }
+    .num1{
+        font-size: 11px;
+        top: -6px;
+    }
 }
-
 @media (min-width: 300px) and (max-width: 430px) {
     .mobile-padding {
         padding: 1.5rem !important;
@@ -687,19 +706,17 @@
     }
 
     .test-video {
-        height: 385px;
-        width: 100px;
+
+        width: 57px;
         height: 69px;
     }
 }
-
 @media (min-width: 380px) and (max-width: 384px) {
     .pos1 {
         top: 379px;
         height: 489.1px;
     }
 }
-
 @media (min-width: 300px) and (max-width: 380px) {
     .pos1 {
         top: 359px;
@@ -719,43 +736,6 @@
         font-size: 12px;
     }
 }
-
-@media (min-width: 341px) and (max-width: 355px) {
-    .pos1 {
-        height: 422.9px;
-    }
-    .line {
-        top: 411px;
-    }
-}
-
-@media (min-width: 333px) and (max-width: 341px) {
-    .pos1 {
-        height: 406.9px;
-    }
-    .line {
-        top: 395px;
-    }
-}
-
-@media (min-width: 328px) and (max-width: 332px) {
-    .pos1 {
-        height: 398.9px;
-    }
-    .line {
-        top: 395px;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 328px) {
-    .pos1 {
-        height: 391.9px !important;
-    }
-    .line {
-        top: 395px;
-    }
-}
-
 @media (min-width: 100px) and (max-width: 300px) {
     .marq {
         height: 66px;
@@ -790,43 +770,47 @@
         height: 96px;
         top: 22px;
     }
-
     .tilt2 {
         top: 21px;
         font-size: 3.5px;
         margin-left: 1.3rem;
         width: 60%;
     }
-
     .proj3 {
         width: 91px;
         height: 68px;
     }
-
     .tilt3 {
         font-size: 0.2rem;
         width: 100%;
         margin-left: 0.5rem;
     }
-
     .pos1 {
         top: 20rem;
         height: 24rem;
     }
-
     .test-video {
         width: 47px;
-        left: 0rem;
         height: 140px;
-        top: 3px;
     }
-
     .m-left-105 {
         margin-left: 36px;
     }
-
     .user-pos {
         font-size: 12px;
         top: 3.6rem;
+    }
+    .test-prop2{
+        font-size: 15px;
+    }
+    .strap{
+        height: 65px;
+    }
+    .num,.outline{
+        font-size: 30px;
+    }
+    .num1{
+        font-size: 8.5px;
+        top: -6px;
     }
 }
