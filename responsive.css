@@ -23,6 +23,7 @@
         font-size: 30px;
     }
 }
+
 @media (min-width: 979px) and (max-width:1370px) {
     .pos {
         height: 25rem;
@@ -97,6 +98,7 @@
     }
 
 }
+
 @media (min-width: 760px) and (max-width: 1256px) {
     .prop1 {
         font-size: 12px;
@@ -162,12 +164,15 @@
         height: 57rem;
         top: 46rem;
     }
+
     .skill-alpha {
         font-size: 50px;
     }
+
     .skill-num-outline {
         font-size: 66px;
     }
+
     .skill-num-tilt {
         padding-bottom: 68px;
         padding-top: 2px;
@@ -179,6 +184,7 @@
         height: 65px;
     }
 }
+
 @media (min-width: 760px) and (max-width: 992px) {
     .company-name {
         width: 238px;
@@ -259,16 +265,36 @@
         height: 52rem;
         top: 40rem;
     }
-    .strap{
+
+    .strap {
         height: 127px;
     }
-    .num,.outline{
+
+    .num,
+    .outline {
         font-size: 70px;
     }
-    .num1{
+
+    .num1 {
         font-size: 25px;
     }
+
+    .con-p-prop {
+        line-height: 112px;
+        font-size: 101px;
+    }
+
+    .apos {
+        height: 36px;
+        bottom: 45px;
+    }
+    .pos3{
+
+            bottom: -169rem;
+            height: 19rem;
+    }
 }
+
 @media (min-width: 767px) and (max-width: 850px) {
     .prop1 {
         font-size: 10px;
@@ -333,12 +359,15 @@
         height: 44rem;
         top: 34rem;
     }
+
     .skill-alpha {
         font-size: 40px;
     }
+
     .skill-num-outline {
         font-size: 50px;
     }
+
     .skill-num-tilt {
         padding-bottom: 3px;
         padding-top: 3px;
@@ -349,8 +378,11 @@
         width: 94px;
         height: 67px;
     }
-
+.pos3{
+    bottom: -152rem;
 }
+}
+
 @media (min-width: 760px) and (max-width: 767px) {
     .proj1 {
         width: 202px;
@@ -392,12 +424,15 @@
         padding: 10px;
 
     }
+
     .skill-alpha {
         font-size: 40px;
     }
+
     .skill-num-outline {
         font-size: 50px;
     }
+
     .skill-num-tilt {
         padding-bottom: 3px;
         padding-top: 3px;
@@ -409,6 +444,7 @@
         height: 67px;
     }
 }
+
 @media (min-width: 500px) and (max-width: 760px) {
     .company-name {
         width: 214px;
@@ -522,33 +558,56 @@
         z-index: -1;
         height: 40rem;
     }
-    .strap{
+
+    .strap {
         height: 109px;
     }
-    .num,.outline{
+
+    .num,
+    .outline {
         font-size: 60px;
     }
-    .num1{
+
+    .num1 {
         font-size: 18px;
     }
+
     .skill-alpha {
         font-size: 30px;
     }
+
     .skill-num-outline {
         font-size: 40px;
     }
+
     .skill-num-tilt {
         padding-bottom: 3px;
         padding-top: 3px;
         padding-right: 21px;
-    padding-left: 21px;
-    left: -72px;
-    bottom: 24px;
-    font-size: 30px;
-    width: 73px;
-    height: 53px;
+        padding-left: 21px;
+        left: -72px;
+        bottom: 24px;
+        font-size: 30px;
+        width: 73px;
+        height: 53px;
+    }
+    .con-p-prop {
+        line-height: 85px;
+        font-size: 69px;
+    }
+
+    .apos {
+
+        height: 21px;
+        bottom: 29px;
+        left: 1rem;
+    }
+    .pos3 {
+        bottom: -129rem;
+        height: 18rem;
     }
 }
+
 @media (min-width: 500px) and (max-width: 600px) {
     .proj1 {
         width: 143px;
@@ -585,16 +644,21 @@
 
     .test-video {
         width: 105px;
-right: 1rem;
+        right: 1rem;
         height: 164px;
     }
+
     .skill-alpha {
         font-size: 20px;
     }
+
     .skill-num-outline {
         font-size: 30px;
     }
+
+    
 }
+
 @media (min-width: 200px) and (max-width: 500px) {
     .company-name {
         width: 165px;
@@ -686,8 +750,8 @@ right: 1rem;
 
     .test-video {
         width: 137px;
-bottom: 20rem;
-right: 1rem;
+        bottom: 20rem;
+        right: 1rem;
         height: 73px;
 
     }
@@ -718,39 +782,63 @@ right: 1rem;
     .test-prop2 {
         font-size: 17px;
     }
-    .strap{
+
+    .strap {
         height: 86px;
     }
-    .num,.outline{
+
+    .num,
+    .outline {
         font-size: 40px;
     }
-    .num1{
+
+    .num1 {
         font-size: 11px;
         top: -6px;
     }
+
     .skill-alpha {
         font-size: 15px;
         margin-top: 16px;
-        margin-bottom: 16px ;
+        margin-bottom: 16px;
     }
+
     .skill-num-outline {
         font-size: 25px;
     }
+
     .skill-num-tilt {
         padding-bottom: 3px;
         padding-top: 3px;
         padding-right: 21px;
-    padding-left: 21px;
-    left: -46px;
-    bottom: 17px;
-    font-size: 20px;
-    width: 60px;
-    height: 39px;
+        padding-left: 21px;
+        left: -46px;
+        bottom: 17px;
+        font-size: 20px;
+        width: 60px;
+        height: 39px;
     }
-    .skill-border{
-        border: 3px solid #7752FE;;
+
+    .skill-border {
+        border: 3px solid #7752FE;
+        ;
+    }
+    .con-p-prop {
+
+        font-size: 51px;
+        line-height: 62px;
+    }
+    .apos{
+        height: 18px;
+    left: 0.5rem;
+    bottom: 27px;
+    }
+    .pos3 {
+        bottom: -107rem;
+        height: 16rem;
     }
 }
+
 @media (min-width: 300px) and (max-width: 430px) {
     .mobile-padding {
         padding: 1.5rem !important;
@@ -805,12 +893,14 @@ right: 1rem;
         height: 69px;
     }
 }
+
 @media (min-width: 380px) and (max-width: 384px) {
     .pos1 {
         top: 379px;
         height: 489.1px;
     }
 }
+
 @media (min-width: 300px) and (max-width: 380px) {
     .pos1 {
         top: 359px;
@@ -829,16 +919,29 @@ right: 1rem;
     .test-prop2 {
         font-size: 12px;
     }
-    .skill-alpha{
+
+    .skill-alpha {
         font-size: 10px;
     }
+
     .skill-num-outline {
         font-size: 20px;
     }
-    .skill-num-tilt{
+
+    .skill-num-tilt {
         padding-left: 21px;
     }
+    .con-p-prop {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .apos {
+        height: 11px;
+        left: 0.5rem;
+        bottom: 15px;
+    }
 }
+
 @media (min-width: 100px) and (max-width: 300px) {
     .marq {
         height: 66px;
@@ -873,53 +976,67 @@ right: 1rem;
         height: 96px;
         top: 22px;
     }
+
     .tilt2 {
         top: 21px;
         font-size: 3.5px;
         margin-left: 1.3rem;
         width: 60%;
     }
+
     .proj3 {
         width: 91px;
         height: 68px;
     }
+
     .tilt3 {
         font-size: 0.2rem;
         width: 100%;
         margin-left: 0.5rem;
     }
+
     .pos1 {
         top: 20rem;
         height: 24rem;
     }
+
     .test-video {
         width: 47px;
         height: 140px;
     }
+
     .m-left-105 {
         margin-left: 36px;
     }
+
     .user-pos {
         font-size: 12px;
         top: 3.6rem;
     }
-    .test-prop2{
+
+    .test-prop2 {
         font-size: 15px;
     }
-    .strap{
+
+    .strap {
         height: 65px;
     }
-    .num,.outline{
+
+    .num,
+    .outline {
         font-size: 11px;
     }
-    .num1{
+
+    .num1 {
         font-size: 11px;
         top: -6px;
     }
-    .skill-alpha{
+
+    .skill-alpha {
         font-size: 8px;
     }
-    .skill-num-tilt{
+
+    .skill-num-tilt {
         padding-left: 15px;
         left: -24px;
         bottom: 26px;
@@ -927,7 +1044,17 @@ right: 1rem;
         width: 39px;
         height: 23px;
     }
+
     .skill-num-outline {
         font-size: 10px;
+    }
+    .con-p-prop {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .apos {
+        height: 9px;
+        left: 0.3rem;
+        bottom: 15px;
     }
 }
