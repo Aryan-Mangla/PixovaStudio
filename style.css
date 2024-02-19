@@ -135,7 +135,7 @@ z-index: -1;
     position: relative;
     height: 2px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), #7752FE, rgba(0, 0, 0, 0));
-    top: 999px;
+    top: 916px;
 }
 
 .line-pos {
@@ -143,9 +143,11 @@ z-index: -1;
 }
 
 .line-pos2{
-    top: 117px;
+    top: 1px;
 }
-
+.line-pos3{
+    top: 1px;
+}
 .line::before {
     content: "";
     position: absolute;

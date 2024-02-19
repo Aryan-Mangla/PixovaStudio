@@ -322,6 +322,7 @@
     .test-video {
         width: 149px;
         height: 197px;
+        bottom: 23rem;
     }
 
     .line {
@@ -504,7 +505,7 @@
     .test-video {
         width: 126px;
         height: 140px;
-        bottom: 28rem;
+        bottom: 23rem;
     }
 
     .colon {
@@ -685,7 +686,7 @@ right: 1rem;
 
     .test-video {
         width: 137px;
-bottom: 25rem;
+bottom: 20rem;
 right: 1rem;
         height: 73px;
 
@@ -745,6 +746,9 @@ right: 1rem;
     font-size: 20px;
     width: 60px;
     height: 39px;
+    }
+    .skill-border{
+        border: 3px solid #7752FE;;
     }
 }
 @media (min-width: 300px) and (max-width: 430px) {
