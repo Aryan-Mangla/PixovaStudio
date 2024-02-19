@@ -293,6 +293,10 @@
             bottom: -169rem;
             height: 19rem;
     }
+    .pos4 {
+        bottom: -171rem;
+        height: 24rem;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 850px) {
@@ -380,6 +384,10 @@
     }
 .pos3{
     bottom: -152rem;
+}
+.pos4 {
+    bottom: -154rem;
+    height: 23rem;
 }
 }
 
@@ -605,6 +613,10 @@
     .pos3 {
         bottom: -129rem;
         height: 18rem;
+    }
+    .pos4 {
+        bottom: -130rem;
+        height: 21rem;
     }
 }
 
@@ -837,6 +849,10 @@
         bottom: -107rem;
         height: 16rem;
     }
+    .pos4 {
+        bottom: -108rem;
+        height: 18rem;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 430px) {
@@ -1056,5 +1072,12 @@
         height: 9px;
         left: 0.3rem;
         bottom: 15px;
+    }
+    .pos3 {
+        bottom: -107rem;
+        height: 11rem;
+    }
+    .pos4 {
+        height: 13rem;
     }
 }
