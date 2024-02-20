@@ -135,9 +135,12 @@ z-index: -1;
     position: relative;
     height: 2px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), #7752FE, rgba(0, 0, 0, 0));
-    top: 970px;
+
 }
 
+.line-pos0{
+    top: 970px;
+}
 .line-pos {
     top: 32px !important;
 }
@@ -323,3 +326,18 @@ text-align: center;
 }
 
 /* About Page */
+.vertical{
+    transform: rotate(90deg);
+}
+.bg-theme{
+    background-color: #7752FE;
+}
+
+.stat-outline{
+    color: #7752FE ;
+    text-shadow:
+		-1px -1px 0 #ffffff,
+		1px -1px 0 #ffffff,
+		-1px 1px 0 #ffffff,
+		1px 1px 0 #ffffff;
+}
