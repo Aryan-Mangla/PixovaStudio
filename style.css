@@ -17,7 +17,7 @@
 }
 
 .hero-main{
-    height: 1024px; top: -50px
+    height: 1024px;
 }
 .hero-pos{
     top: 219px;
@@ -321,3 +321,5 @@ text-align: center;
     width: 100%;
 
 }
+
+/* About Page */
