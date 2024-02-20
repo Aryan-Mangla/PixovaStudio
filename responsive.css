@@ -947,6 +947,13 @@
     .skill-num-tilt {
         padding-left: 21px;
     }
+        .pos3 {
+            bottom: -107rem;
+    }
+    .pos4{
+        bottom: -107rem;
+
+    }
     .con-p-prop {
         font-size: 34px;
         line-height: 44px;
