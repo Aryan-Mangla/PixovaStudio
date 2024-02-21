@@ -91,8 +91,8 @@ margin-bottom: 0;
     background-color: #7752FE;
     border: 2px solid #7752FE ;
     display: block;
-    position: relative;
-    transform: rotate(-3deg);
+    transform: rotate(-15deg);
+
 }
 .tilt1{
     margin-left: 15rem;
